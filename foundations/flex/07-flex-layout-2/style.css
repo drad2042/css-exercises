@@ -10,9 +10,10 @@ body {
   background: darkmagenta;
   color: white;
   align-items: center;
-  padding: 10px;
+  padding: 13px;
   height: fit-content;
   font-weight: bold;
+  font-size: 24px;
 }
 
 .footer {
@@ -25,10 +26,43 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  text-align: center;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: row;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+  max-width: 400px;
+}
+
+.topcard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  gap: 30px;
+}
+
+.bottomcard {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+.top-and-bottom {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
